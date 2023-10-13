@@ -1,0 +1,80 @@
+== Win a Thrilling Balloon Flight at OpenSlava 2023!
+:toc:
+
+*🎈 BalloonChallenge CodeFix 🎈*
+
+=== Welcome to the Skyward BalloonChallenge CodeFix Project! 🚀
+
+=== 🎉 Win a Thrilling Balloon Flight! 🎉
+
+Embark on a coding adventure and get the chance to soar high in the sky in a hot air balloon! 🌍🎈 This repository is the gateway to a challenge where your code-fixing skills could win you an unforgettable balloon flight experience.
+
+'''
+
+=== 🛠 Challenge Overview:
+
+==== The Task:
+
+* *Repair the Despair*: Dive into our code repository and get your hands on bugs, inefficiencies, and areas that need enhancement.
+
+* *Limited Time Magic*: Make meaningful contributions by fixing code within a specified time frame at ableneo booth.
+
+==== The Reward:
+
+* *Fly High*: The coder with the best fix will be awarded a spectacular hot air balloon flight.
+
+'''
+
+=== 🚀 How to Participate:
+
+. *Check in @ ableneo booth*: Visit ableneo booth and check in to the challenge.
+
+. *Code &amp; Commit*: Implement your fix and commit your changes.
+
+. *Pull &amp; Pray*: Make a pull request back to the original repository. Ensure your PR has a descriptive title and thorough explanation of the fixes made.
+
+. *Wait &amp; See*: Judges will evaluate the solutions and announce the winner once the challenge ends.
+
+'''
+
+=== 🏆 Judging Criteria:
+
+* *Efficiency*: The simplicity and computational efficiency of your fix.
+
+* *Readability*: How clean and understandable your code is.
+
+* *Impact*: The significance of the bug/issue you resolved.
+
+* *Explanation*: The clarity of your explanation and documentation for the fix.
+
+* *Tests*: The tests suite passes.
+
+'''
+
+=== 📅 Important Dates:
+
+* *Coding stand*: @ableneo booth, OpenSlava 2023, *19.10.2023*, Bratislava, Slovakia https://www.openslava.sk/2023
+
+* *Winners Unveiled*: Winner will be declared on *19.10.2023 16:30* at our ableneo booth. The winner will be contacted via email.
+
+'''
+
+=== 💌 Stay Connected:
+
+* *Ask Me Anything*: Reach out to us at out https://github.com/ableneo/ama[AMA] project for any questions or feedback.
+
+* *Issues*: Use the `Issues` tab for queries or to interact with the community.
+
+* *Social Media*: Join us on https://twitter.com/ableneo[Twitter] and https://www.linkedin.com/company/ableneoie/[LinkedIn] for more insights and updates.
+
+'''
+
+=== 📜 License:
+
+This project is licensed under the MIT License. See the link:LICENSE[LICENSE] file for details.
+
+'''
+
+🚀 *Join the BalloonChallenge CodeFix and let your coding skills take you to the skies!* 🎈
+
+'''
