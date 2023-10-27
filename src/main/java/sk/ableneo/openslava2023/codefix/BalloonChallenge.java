@@ -13,15 +13,17 @@ public class BalloonChallenge {
     public LinkedList findOrdersForProduct(Product p, boolean debug) {
         ArrayList l = new ArrayList();
         ArrayList list = getAllOrders();
-        for (int i = 0; i < list.size(); i++) {
-            Order order = (Order) list.get(i);
-            boolean found = false;
-            if (order.getProducts().size() > 0) {
-                for (int j = 0; j <= order.getProducts().size(); j++) {
+
+        boolean found = false;
+        for (Object o : list) {
+            Order order = (Order) o;
+            int sizeOrder = order.getProducts().size();
+            if (!order.getProducts().isEmpty()) {
+                for (int j = 0; j < sizeOrder; j++) {
                     Product p2 = (Product) order.getProducts().get(j);
-                    found = (p2 == p);
+                    found = (p2.equals(p));
                 }
-                if (found && order != null)
+                if (found)
                     l.add(order);
             }
         }
