@@ -11,10 +11,13 @@ import java.util.LinkedList;
 public class BalloonChallenge {
 
     public LinkedList findOrdersForProduct(Product p, boolean debug) {
+
         ArrayList l = new ArrayList();
         ArrayList list = getAllOrders();
         for (int i = 0; i < list.size(); i++) {
-            Order order = (Order) list.get(i);
+            
+            Order order = new Order(list);
+           // Order order = (Order) list.get(i);
             boolean found = false;
             if (order.getProducts().size() > 0) {
                 for (int j = 0; j <= order.getProducts().size(); j++) {
