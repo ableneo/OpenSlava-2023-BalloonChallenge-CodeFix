@@ -6,26 +6,26 @@ import sk.ableneo.openslava2023.donotfix.Product;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.List;
 
 // TODO: fix the class
 public class BalloonChallenge {
 
-    public LinkedList findOrdersForProduct(Product p, boolean debug) {
-        ArrayList l = new ArrayList();
-        ArrayList list = getAllOrders();
-        for (int i = 0; i < list.size(); i++) {
-            Order order = (Order) list.get(i);
-            boolean found = false;
-            if (order.getProducts().size() > 0) {
-                for (int j = 0; j <= order.getProducts().size(); j++) {
-                    Product p2 = (Product) order.getProducts().get(j);
-                    found = (p2 == p);
+    public List<Order> findOrdersForProduct(Product p, boolean debug) {
+        List<Order> res = new ArrayList<>();
+        List<Order> orders = getAllOrders();
+        for_order: for (Order order : orders) {
+            List<Product> ps =  order.getProducts();
+            if (ps == null)
+                continue;
+            for (Product p2 : ps) {
+                if (p2.equals(p)) {
+                    res.add(order);
+                    continue for_order;
                 }
-                if (found && order != null)
-                    l.add(order);
             }
         }
-        return new LinkedList(l);
+        return res;
     }
 
     public ArrayList getAllOrders() {
