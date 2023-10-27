@@ -18,8 +18,8 @@ public class BalloonChallenge {
             boolean found = false;
             if (order.getProducts().size() > 0) {
                 for (int j = 0; j <= order.getProducts().size(); j++) {
-                    Product p2 = (Product) order.getProducts().get(j);
-                    found = (p2 == p);
+                    Product p2 = order.getProducts().get(j);
+                    found = (p2.equals(p));
                 }
                 if (found && order != null)
                     l.add(order);
