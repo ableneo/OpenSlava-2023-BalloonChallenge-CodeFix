@@ -24,7 +24,7 @@ class BalloonChallengeTest {
     @BeforeEach
     void setUp() {
         when(balloonChallenge.getAllOrders()).thenReturn(
-                new ArrayList<Object>(Arrays.asList(
+                new ArrayList<Order>(Arrays.asList(
                         new Order(new ArrayList<>(Arrays.asList(new Product("hot air balloon")))),
                         new Order(new ArrayList<>(Arrays.asList(new Product("gas balloon")))),
                         new Order(new ArrayList<>(Arrays.asList(new Product("gas balloon"))))
